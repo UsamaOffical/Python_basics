@@ -64,7 +64,34 @@ s1 = set(ls_1)
 s2 = set(ls_2)
 
 s3 = s1.intersection(s2)
-print(s3)
+# print(s3)
 
 
+
+names = ["usama","shoaib","ahmed"]
+
+# print(*names)
+
+
+a = 10
+b = a+5
+
+# print(b)
+
+characters = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ") 
+
+# print(characters)
+
+char = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+# print(char[-10:27]) # yaha pr hamre pas result ajae jae ga normal ['Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y','Z]
+# print(char[-10:-1]) # yaha pr hamare pas result aje ga ['Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
+# print(char[-1:-11]) # yaha pr empty list aye gi
+# print(char[-1:-11 :-1]) # yaha pr aje ga because step bhi hum negative mai dae rahe hai
+charac = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+# for char in charac[::-1]: # this expresion print all element but reverse
+#     print(char)
+for char in charac[0::2]:
+    print(char)
 
