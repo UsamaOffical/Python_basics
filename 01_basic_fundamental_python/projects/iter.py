@@ -11,11 +11,13 @@
 #     print(len(i))
 
 user = input("Enter a name : ")
-password  = input("Create a pasword : ")
+# password  =input("You only enter a name or text and I will add this '@123' : ")
+password  =input("Create a password but Your password must contain @123 : ")
 
 if len(password) >= 8:
-    if password.find("@") and password.find("123"):
+    if password.find("@") and password.find('123'):
         print(f"Hello {user}")
+        print("Password created successfully!")
     else:{
         print("Please add @ and 123!")
     }    

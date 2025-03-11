@@ -19,11 +19,21 @@ tup_3 = (1,3,4,6,7)
 #     print(name,password)
 
 
-usr_inp = int(input('Enter a number that You crete a table! '))
+# usr_inp = int(input('Enter a number that You crete a table! '))
 
-for n in range(1,11):
-    print(f'{usr_inp} x {n} = {usr_inp*n}')
+# for n in range(1,11):
+#     print(f'{usr_inp} x {n} = {usr_inp*n}')
 
-print(type(usr_inp))
+# print(type(usr_inp))
 
+compact = [square**2 for square in range(1,11)]
+# print(compact)
 
+cakes = ['apple cake','banana cake','falafil']
+# liked_cake = cakes # is tarha se agr kare gae to shallow copy bane gi or dono jaga val change hogi
+liked_cake = cakes[:] # is tarha karne se deep copy banti hai
+
+liked_cake[0] = 'lala khajuri'
+
+print(cakes)
+print(liked_cake)
