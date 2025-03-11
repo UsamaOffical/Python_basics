@@ -105,3 +105,29 @@
 #     idx += 1
 #     print(idx , val)
 
+# even_odd = list(range(1,21))
+
+# if len(even_odd) % 2 == 0:
+#     print("Even")
+
+# lis = [1,2,3,4,5,6,7,8,9,10]
+
+
+
+
+
+
+# for i in range(1,100):
+#     if i % 2 == 0:
+#         print("Even",i)
+#     else:
+#         print("Odd")
+
+
+
+
+
+
+
+# lis = [i for i in range(1,10) if i % 2 == 0]
+# print(lis)
